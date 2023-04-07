@@ -581,3 +581,18 @@ new WOW().init();
 	}
 
 })(jQuery);
+
+function showArticle(idx) {
+    const services = document.getElementsByClassName("service-detail");
+	const links = document.getElementsByClassName("menu-link");
+
+    for (let i=0; i<services.length; i++) {
+        services[i].setAttribute("class", "service-detail hidden");
+        links[i].setAttribute("class", "menu-link");
+
+    }
+    document.getElementById("service-detail-" + idx).setAttribute("class", "service-detail");
+    document.getElementById("menu-link-" + idx).setAttribute("class", "menu-link active");
+
+
+}

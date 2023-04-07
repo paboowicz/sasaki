@@ -9858,3 +9858,7 @@ blockquote a {
     border-bottom: 2px solid #bc986b;
     color: #000;
 }
+
+.hidden {
+	display: none;
+}
