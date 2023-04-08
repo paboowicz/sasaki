@@ -308,8 +308,56 @@ label {
 	border-top: 1px solid #f2f2f2
 }
 
+/* kolorowy button */
+.btncol {
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 23px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-size: 44px;
+  font-weight: bold;
+}
 
+.letter-k {
+  color: red;
+}
+
+.letter-i {
+  color: yellow;
+}
+
+.letter-d {
+  color: green;
+}
+
+.letter-s {
+  color: blue;
+}
+
+.btncol:hover {
+  background-color: FloralWhite;
+  color: white;
+}
+
+.btncol:hover .letter-k {
+  color: orange;
+}
+
+.btncol:hover .letter-i {
+  color: lightgreen;
+}
+
+.btncol:hover .letter-d {
+  color: lightblue;
+}
+
+.btncol:hover .letter-s {
+  color: pink;
+}
 /* button style */
+
 
 .btn {
 	-moz-user-select: none;
