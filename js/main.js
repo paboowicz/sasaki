@@ -593,6 +593,6 @@ function showArticle(idx) {
     }
     document.getElementById("service-detail-" + idx).setAttribute("class", "service-detail");
     document.getElementById("menu-link-" + idx).setAttribute("class", "menu-link active");
-
+	document.getElementById("pakiety").scrollIntoView()
 
 }
