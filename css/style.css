@@ -310,11 +310,11 @@ label {
 
 /* kolorowy button */
 .btncol {
-  background-color: black;
+  background-color: #F7F6EA;
   color: black;
   border: none;
   padding: 10px 20px;
-  border-radius: 1px;
+  border-radius: 1000px;
   transition: background-color 0.3s ease, color 0.3s ease;
   font-size: 44px;
   font-weight: bold;
@@ -337,7 +337,7 @@ label {
 }
 
 .btncol:hover {
-  background-color: black;
+  background-color: white;
   color: white;
 }
 
